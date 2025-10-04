@@ -7,15 +7,15 @@ Build a Gaming and/or Office PC and cannot decide which distro flavour?
 <br><br>
 Sticking with traditional technology and without or limit AI?
 <br><br>
-Struggling on your own with Arch Linux?
-<br>
 ## Answer
+Switching to Linux can save you money since it's free to use and often requires less powerful hardware than Windows. Additonally, Linux is generally more secure and customisable, making it a great option for users looking for a reliable operating system.
+<br><br>
 GO Arch Linux!<br>
 $\color{green}{Gaming}$ and/or $\color{green}{Office}$ on Arch Linux with the help from a Deaf man. 🤘
 <br><br>
-Peace of mind guides to install/customise with [Arch Linux](https://archlinux.org) building from scratch for the Deaf, DeafBlind, DeafDisabled, Hard of Hearing and Late-Deafened. 🤟
+Providing guides to install/customise with [Arch Linux](https://archlinux.org) building from scratch for the Deaf, DeafBlind, DeafDisabled, Hard of Hearing and Late-Deafened.
 <br><br>
-Hearing are welcome. Just don't ask in English. 😜
+Hearing are welcome. Just don't ask with your mouth. 😜
 <br><br><br><br>
 Desktop Environment: [KDE Plasma](https://kde.org/plasma-desktop/)<br><br>
 Applications Included Example:<br>
@@ -27,7 +27,8 @@ Applications Included Example:<br>
 + ### $\textsf{\color{#ea4335}{AppImage - Lack of Integration, Update Challenges, Compatibility Issues}}$
 + ### $\textsf{\color{#fbbc05}{Flatpak - Storage Usage, Sandboxing Restrictions, Performance}}$
 + ### $\textsf{\color{#fbbc05}{Snap - Size and Speed, Limited Library Access, Integration Issues}}$
-<br><br>
+<br>
+
 ## Graphics Driver List
 + AMD / ATI (open-source)
 + All open-source (Intel with Radeon or AMD with Arc)
@@ -42,4 +43,5 @@ Applications Included Example:<br>
 + dns & firewall
 + colors & themes
 <br><br>
-Reward Yourself Afterward! 👍
+
+Reward Yourself Afterward! 👍</h2>

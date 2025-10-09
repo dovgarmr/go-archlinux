@@ -107,7 +107,7 @@ After installing, reboot your computer for the application to recognise usb.
 <p>Your password as consent to allow writing iso to usb.</p>
 <p>Wait, be patient... when it's done, close the app.</p>
 
-<img width="812" height="617" alt="rpi-imager" src="https://github.com/user-attachments/assets/22cd3e36-86f5-4589-a713-4658654030ee" /> <img width="812" height="617" alt="rpi-imager-os" src="https://github.com/user-attachments/assets/907fad62-708a-46be-92ca-0b7913a861d1" />
+<img width="812" height="617" alt="rpi-imager" src="https://github.com/user-attachments/assets/a156a578-8faa-4692-82c3-fef319f2bc10" /> <img width="812" height="617" alt="rpi-imager-os" src="https://github.com/user-attachments/assets/5d04e690-1fb9-4201-b18b-48a80f990dba" />
 
 ## BIOS Settings
 <p>Reboot and press F2 or DEL during the inital boot process. If you're unsure or pressing F2 or DEL didn't do anything, hold power button and power on again. Look for a message on the screen during startup that indicates which key to press. For an example: HP use F10 and some Dell use F12</p>
@@ -120,60 +120,60 @@ After installing, reboot your computer for the application to recognise usb.
 
 ## Install Arch Linux
 <p>Choose Arch Linux install medium (x86_64, UEFI). Press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_161531" src="https://github.com/user-attachments/assets/dce83d1c-35b7-4a0f-8674-08f9eda9b4e6" />
+<img width="1280" height="720" alt="Screenshot_20251006_161531" src="https://github.com/user-attachments/assets/0292fb41-6432-4598-b152-cab23c8b3f33" />
 <p>Until you see root@archiso, type archinstall. Press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_161638" src="https://github.com/user-attachments/assets/ee978e8b-67c3-4a72-8c87-bf53dfec605d" />
+<img width="1280" height="720" alt="Screenshot_20251006_161638" src="https://github.com/user-attachments/assets/2fb77912-5665-4f63-a7b9-b9814db6b044" />
 <p>Select Mirrors and repositories, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_161736" src="https://github.com/user-attachments/assets/95151f3a-ae39-400f-89dd-ae9cc9aa1d39" />
+<img width="1280" height="720" alt="Screenshot_20251006_161736" src="https://github.com/user-attachments/assets/dbc1094f-32a3-48ee-ac95-76544ab9b019" />
 <p>Select regions, press enter. Select your country, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_161814" src="https://github.com/user-attachments/assets/785eb459-62ff-49f9-84ff-9ce2108fc050" />
+<img width="1280" height="720" alt="Screenshot_20251006_161814" src="https://github.com/user-attachments/assets/a7c3ac3a-c3cf-4e39-8afd-3424d6d9b22f" />
 <p>Optional repositories, press enter. </p>
-<img width="1280" height="720" alt="Screenshot_20251006_161853" src="https://github.com/user-attachments/assets/ff88ee70-2087-4d40-9fc6-88fc12da145e" />
+<img width="1280" height="720" alt="Screenshot_20251006_161853" src="https://github.com/user-attachments/assets/1579a478-3ca8-4c0c-9e79-483a1ce2000c" />
 <p>Select multilib, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_161913" src="https://github.com/user-attachments/assets/e1b6308b-1da8-476e-8c16-84f4d24ccd51" />
+<img width="1280" height="720" alt="Screenshot_20251006_161913" src="https://github.com/user-attachments/assets/e6649f40-9dd0-4290-b939-07588753025c" />
 <p>Disk configuration, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162113" src="https://github.com/user-attachments/assets/345118d6-e686-4115-8baf-f429bdc02f28" />
+<img width="1280" height="720" alt="Screenshot_20251006_162113" src="https://github.com/user-attachments/assets/a4119d49-d3bf-4b5a-8882-b5509201b7d5" />
 <p>Partitioning, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162137" src="https://github.com/user-attachments/assets/1eb78ca9-ab50-4456-a83b-cb107e1ae463" />
+<img width="1280" height="720" alt="Screenshot_20251006_162137" src="https://github.com/user-attachments/assets/4da58a97-f7ad-4c36-be7d-73264eff4f01" />
 <p>Use a best-effort default partition layout, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162154" src="https://github.com/user-attachments/assets/7da93459-627f-4ac4-a0b1-9c71adb2364e" />
+<img width="1280" height="720" alt="Screenshot_20251006_162154" src="https://github.com/user-attachments/assets/6c3dfa6c-6bc5-4698-868e-63168821b3a9" />
 <p>Select ext4, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162250" src="https://github.com/user-attachments/assets/94317a10-f891-4744-9802-4a101539b977" />
+<img width="1280" height="720" alt="Screenshot_20251006_162250" src="https://github.com/user-attachments/assets/3d0d9463-fa64-42fc-b4c0-54cc72f71cd7" />
 <p>Disk encryption, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162329" src="https://github.com/user-attachments/assets/3db0dcc8-0d58-4fd6-a4a1-97fb8e5bdfc0" />
+<img width="1280" height="720" alt="Screenshot_20251006_162329" src="https://github.com/user-attachments/assets/b3b98129-0532-4a3e-8644-e9f96be7517f" />
 <p>Encryption type, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162343" src="https://github.com/user-attachments/assets/b239734e-7761-4733-9db2-1b8dea020e30" />
+<img width="1280" height="720" alt="Screenshot_20251006_162343" src="https://github.com/user-attachments/assets/38372177-8927-4a72-9ed1-cb9f3f5bfd2f" />
 <p>LUKS, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162356" src="https://github.com/user-attachments/assets/cbf17d96-edcb-4bc1-9d8f-3b015fcc820d" />
+<img width="1280" height="720" alt="Screenshot_20251006_162356" src="https://github.com/user-attachments/assets/aab9eae0-bc6f-44be-86f6-0a4305d5f16c" />
 <p>Encryption password, press enter. Create a password, don't forget to write down or use a password manager on phone. Press enter, password again, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162435" src="https://github.com/user-attachments/assets/43d01be7-105f-47f9-ac83-92ed3afe3637" />
+<img width="1280" height="720" alt="Screenshot_20251006_162435" src="https://github.com/user-attachments/assets/10ea6799-be30-4fb7-a916-c6695f26960b" />
 <p>Partitions, press enter. </p>
-<img width="1280" height="720" alt="Screenshot_20251006_162528" src="https://github.com/user-attachments/assets/3330e329-cb35-4541-b46a-74e3e1a391b7" />
+<img width="1280" height="720" alt="Screenshot_20251006_162528" src="https://github.com/user-attachments/assets/dd98be3b-4c68-47ca-83bb-2dfba0259985" />
 <p>Usally one option, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162559" src="https://github.com/user-attachments/assets/9550d615-f320-4f83-9723-f4e93437059d" />
+<img width="1280" height="720" alt="Screenshot_20251006_162559" src="https://github.com/user-attachments/assets/4f0aa4d5-95dc-41d3-8a62-bf78b865208c" />
 <p>Swamp, press enter. If RAM is under 16GB, select yes. If RAM is over 32GB, select no. Press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162708" src="https://github.com/user-attachments/assets/2f9b1f27-bf3f-48bd-80d0-7d75490905d4" />
+<img width="1280" height="720" alt="Screenshot_20251006_162708" src="https://github.com/user-attachments/assets/1dce3785-7c97-41fe-ba3b-24bde11193fc" />
 <p>Bootloader, press enter. Select GRUB, press enter.</p>
 <p>Hostname, press enter. Optional to change archlinux. Press enter.</p>
 <p>Authentication, press enter. User account, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162818" src="https://github.com/user-attachments/assets/2e251a7e-0ffd-4251-a9e5-a4166ef0ea1e" />
+<img width="1280" height="720" alt="Screenshot_20251006_162818" src="https://github.com/user-attachments/assets/28c1ca94-23d9-40dd-ae3c-08ec91ced7f2" />
 <p>Add a user, press enter. (Don't forget to write down or add another to password manager.) Should "yourname" be a superuser (sudo)? Select Yes, press enter. Confirm and exit, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_162941" src="https://github.com/user-attachments/assets/02c33bfa-1cfc-493c-8e1c-5063dbe01c27" />
+<img width="1280" height="720" alt="Screenshot_20251006_162941" src="https://github.com/user-attachments/assets/cab027d8-3763-402c-95f9-93ae10a0db7c" />
 <p>Profile, press enter. Type, press enter. Desktop, press enter. Select KDE Plasma, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_163038" src="https://github.com/user-attachments/assets/48d8ddca-a617-4e5c-ba3b-2b0a3e22b205" />
+<img width="1280" height="720" alt="Screenshot_20251006_163038" src="https://github.com/user-attachments/assets/65628875-4967-44fa-a333-c546d3287413" />
 <p>Graphics driver, press enter. Select the correct driver for your PC, perss enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_163051" src="https://github.com/user-attachments/assets/065e697c-cee5-4b63-8783-118462f4b0c5" />
+<img width="1280" height="720" alt="Screenshot_20251006_163051" src="https://github.com/user-attachments/assets/72046699-f519-43f2-99f1-298b6f2ab551" />
 <p>Applications, press enter. Bluetooth, yes, press enter. Audio, pipewire, press enter.</p>
 <p>Kernels, press enter. Unselect linux and select linux-zen, press enter</p>
-<img width="1280" height="720" alt="Screenshot_20251006_163358" src="https://github.com/user-attachments/assets/13ccb3bb-974c-4ceb-9863-06865670b1de" />
+<img width="1280" height="720" alt="Screenshot_20251006_163358" src="https://github.com/user-attachments/assets/c1e4ec65-c267-4110-b888-19b59854b142" />
 <p>Network configuration, press enter. Use Networkmanager (necessary to configure internet graphically in GNOME and KDE Plasma), press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_163515" src="https://github.com/user-attachments/assets/391c79b9-e62a-43de-bc3e-e1e56bdb76c6" />
+<img width="1280" height="720" alt="Screenshot_20251006_163515" src="https://github.com/user-attachments/assets/4f71dc22-4fa3-4339-8de5-884cfaa2a2d1" />
 <p>Timezone, press enter. Select your timezone, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_163634" src="https://github.com/user-attachments/assets/ea12134b-d7d7-464b-b7ab-30e8ecf4e838" />
+<img width="1280" height="720" alt="Screenshot_20251006_163634" src="https://github.com/user-attachments/assets/5d327cdc-9f8b-403a-9580-bb9da5997e50" />
 <p> Install, press enter. Yes, press enter.</p>
-<img width="1280" height="720" alt="Screenshot_20251006_163702" src="https://github.com/user-attachments/assets/3c1f3ab0-5e84-44a0-bd61-60b9bfb10856" />
+<img width="1280" height="720" alt="Screenshot_20251006_163702" src="https://github.com/user-attachments/assets/54c8fd9f-a475-457e-823a-c78a467bebc2" />
 <p>Reboot system, press enter. Be ready to unplug Flash Drive during temporarily shutdown (black screen).</p>
-<img width="1280" height="720" alt="Screenshot_20251006_164221" src="https://github.com/user-attachments/assets/34f2f1ee-9eaa-4981-9acc-27359d1e887b" />
+<img width="1280" height="720" alt="Screenshot_20251006_164221" src="https://github.com/user-attachments/assets/ce7c48d8-ece9-43e8-a92e-c8e9851f6438" />
 
 ## Repos & Software
 
@@ -196,7 +196,8 @@ After installing, reboot your computer for the application to recognise usb.
 [chaotic-aur]
 Include = /etc/pacman.d/chaotic-mirrorlist
 ```
-<img width="1280" height="720" alt="Screenshot_20251008_135622" src="https://github.com/user-attachments/assets/c0fef24b-8d6a-4ae8-916d-b4cf89121eb5" />
+
+<img width="1280" height="720" alt="Screenshot_20251008_135622" src="https://github.com/user-attachments/assets/ce36ade3-390e-443f-8b5b-117913526cc5" />
 
 <p>Press CRTL+X, Y, ENTER</p>
 
@@ -251,8 +252,6 @@ done
 
 Dinner and call it a night. Update tomorrow.
 
-
-
 ### DNS
 
 <p>At the bottom left of the screen, click Application Launcher> System> System Settings</p>
@@ -275,7 +274,7 @@ Dinner and call it a night. Update tomorrow.
 
 <p>Open Zen Browser. If you have Firefox account, you can sync. Or import your bookmark from Backup disk.</p>
 <p>Click on ... to Settings, Privacy & Security. Scroll down to DNS over HTTPS. Choose Off</p>
-<img width="1261" height="1354" alt="Screenshot_20251008_143726" src="https://github.com/user-attachments/assets/d8d466c1-635d-4562-a01b-981816a5bf35" />
+<img width="1261" height="1354" alt="Screenshot_20251008_143726" src="https://github.com/user-attachments/assets/e8738ff6-0cf7-44d3-902f-2928dbd00404" />
 
 ### Firewall
 

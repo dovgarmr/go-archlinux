@@ -218,6 +218,9 @@ Add to the bottom
 #### No Office
 `sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp isoimagewriter kalm paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
 
+#### No Gaming and Office
+`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp isoimagewriter kalm paru strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
+
 ### Add AUR Packages
 `paru -S livecaptions proton-mail-bin`
 

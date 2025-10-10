@@ -334,6 +334,8 @@ The output must include: stdin: Win.Test.EICAR_HDB-1 FOUND
 
 `2620:fe:fe,2620:fe::9`
 
+<img width="1515" height="812" alt="Screenshot_20251010_174943" src="https://github.com/user-attachments/assets/6cc6f4cf-2c62-41fe-ab4d-cbc56702f525" />
+
 <p>Click Apply. Close the app. Reboot the PC.</p>
 
 <p>Open Zen Browser. If you have Firefox account, you can sync. Or import your bookmark from Backup disk.</p>

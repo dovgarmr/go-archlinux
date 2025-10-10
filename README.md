@@ -328,6 +328,8 @@ The output must include: stdin: Win.Test.EICAR_HDB-1 FOUND
 <p>Click on ... to Settings, Privacy & Security. Scroll down to DNS over HTTPS. Choose Off</p>
 <img width="1261" height="1354" alt="Screenshot_20251008_143726" src="https://github.com/user-attachments/assets/e8738ff6-0cf7-44d3-902f-2928dbd00404" />
 
+Confirm you're using Quad9 by visiting [on.quad9.net](https://on.quad9.net).
+
 ### Firewall
 
 `sudo systemctl enable firewalld && sudo systemctl start firewalld`

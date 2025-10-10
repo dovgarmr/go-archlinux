@@ -190,12 +190,11 @@ After installing, reboot your computer for the application to recognise usb.
 <br><br>
 `sudo nano /etc/pacman.conf`
 
-<p>Add to the bottom. Paste, press CTRL+SHIFT+V</p>
-
 ```
 [chaotic-aur]
 Include = /etc/pacman.d/chaotic-mirrorlist
 ```
+Add to the bottom
 
 <img width="1280" height="720" alt="Screenshot_20251008_135622" src="https://github.com/user-attachments/assets/ce36ade3-390e-443f-8b5b-117913526cc5" />
 
@@ -207,7 +206,7 @@ Include = /etc/pacman.d/chaotic-mirrorlist
 
 ### Add Packages
 
-`sudo pacman -S clamav discord libappindicator-gtk3 xdg-utils firewalld libnotify python-pyqt6 gimp isoimagewriter kalm libreoffice-fresh paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi ffmpeg imagemagick poppler zen-browser-bin`
+`sudo pacman -S clamav discord firewalld python-pyqt6 gimp isoimagewriter kalm libreoffice-fresh paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
 
 ### Add Other AUR Packages
 `paru -S livecaptions proton-mail-bin`
@@ -250,7 +249,30 @@ for ADDRESS in /run/user/*; do
 done
 ```
 
-Dinner and call it a night. Update tomorrow.
+`sudo systemctl edit --full clamav-clamonacc.service`
+<p>Compare below, similar to yours? And notice under [Service], ExecStart= and --fdpass are not there? You can copy below and paste.</p>
+
+```
+# clamonacc systemd service file primarily the work of ChadDevOps & Aaron Brighton
+# See: https://medium.com/@aaronbrighton/installation-configuration-of-clamav-antivirus-on-ubuntu-18-04-a6416bab3b41#a340
+
+[Unit]
+Description=ClamAV On-Access Scanner
+Documentation=man:clamonacc(8) man:clamd.conf(5) https://docs.clamav.net/
+Requires=clamav-daemon.service
+After=clamav-daemon.service syslog.target network.target
+
+[Service]
+Type=simple
+User=root
+ExecStartPre=/bin/bash -c "while [ ! -S /run/clamav/clamd.ctl ]; do sleep 1; done"
+ExecStart=
+ExecStart=/usr/sbin/clamonacc -F --fdpass --log=/var/log/clamav/clamonacc.log --move=/root/quarantine
+ExecStop=/bin/kill -SIGKILL $MAINPID
+
+[Install]
+WantedBy=multi-user.target
+```
 
 ### DNS
 

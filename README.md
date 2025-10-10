@@ -54,7 +54,7 @@ Software Included Example:<br>
 + bios settings (done)
 + install arch linux (done)
 + repos & software (done)
-+ security (finish tomorrow)
++ security (done)
 + colors & themes (coming soon)
 
 ## Check List
@@ -250,7 +250,7 @@ done
 ```
 
 `sudo systemctl edit --full clamav-clamonacc.service`
-<p>Compare below, similar to yours? And notice under [Service], ExecStart= and --fdpass are not there? You can copy below and paste.</p>
+<p>Compare below, similar? And notice under [Service], ExecStart= and --fdpass are not there? Add yourself or copy and paste.</p>
 
 ```
 # clamonacc systemd service file primarily the work of ChadDevOps & Aaron Brighton
@@ -273,6 +273,36 @@ ExecStop=/bin/kill -SIGKILL $MAINPID
 [Install]
 WantedBy=multi-user.target
 ```
+Press CTRL+X, Y, ENTER
+
+`sudo freshclam`
+`sudo touch /var/log/clamav/freshclam.log`
+`sudo chmod 600 /var/log/clamav/freshclam.log`
+`sudo chown clamav /var/log/clamav/freshclam.log`
+`sudo systemctl start clamav-freshclam.service`
+`sudo systecmtl enable clamav-freshclam.service`
+
+`sudo systemctl start clamav-daemon.service`
+`sudo systemctl enable clamav-daemon.service`
+`sudo systemctl start clamav-clamonacc.service`
+`sudo systemctl enable clamav-clamonacc.service`
+
+`sudo touch /run/clamav/clamd.ctl`
+`sudo chown clamav:clamav /run/clamav/clamd.ctl`
+`sudo systemctl restart clamav-daemon.service`
+
+#### Testing
+`curl https://secure.eicar.org/eicar.com.txt | clamscan -`
+The output must include: stdin: Win.Test.EICAR_HDB-1 FOUND
+
+#### Real-Time Protection
+`cd Downloads`
+`wget https://secure.eicar.org/eicar.com.txt`
+`cat eicar.com.txt`
+
+#### Adding more Databases/Signatures Repos
+`sudo -u clamav /usr/bin/fangfrisch --conf /etc/fangfrisch/fangfrisch.conf initdb`
+`sudo systemctl enable fangfrisch.timer`
 
 ### DNS
 

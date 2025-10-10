@@ -1,7 +1,5 @@
 # go-archlinux
 
-<p>Work of Progress<p>
-
 ## Reasons
 Microsoft to abandon Windows 10 for 11 and unable to upgrade due to hardware?
 <br><br>

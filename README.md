@@ -10,7 +10,7 @@ Build a Gaming and/or Office PC and cannot decide which distro flavour?
 Sticking with traditional technology and without or limited AI?
 <br><br>
 ## Answer
-Switching to Linux can save you money since it's free to use and often requires less powerful hardware than Windows. Additionally, Linux is generally more secure and customisable, making it a great option for users looking for a reliable operating system.
+Switching to Linux can save you money since it's free to use, works on old and new hardware. Additionally, Linux is generally more privacy, secure and customisable, making it a great option for users looking for a reliable operating system.
 <br><br>
 GO Arch Linux!<br>
 $\color{green}{Gaming}$ and/or $\color{green}{Office}$ on Arch Linux with the help from a skilled Deaf long viking beard man. 🤘
@@ -177,9 +177,15 @@ After installing, reboot your computer for the application to recognise usb.
 
 ## Repos & Software
 
-### Add Chaotic-AUR Repository
+### Remove Unnecesarry Packages
+<p>KDE's Discover package manager is not designed for Arch Linux.</p>
 <p>On the keyboard, press CTRL+ALT+T to open a terminal.</p>
 
+`sudo pacman -R plasma-meta`
+
+`sudo pacman -R discover`
+
+### Add Chaotic-AUR Repository
 <p>Key, Signing and Mirrorlist</p>
 
 `sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com`
@@ -205,18 +211,17 @@ Add to the bottom
 `sudo pacman -Syu`
 
 ### Add Packages
+<p>Choose Full, No Gaming or No Office.</p>
 
+#### Full
 `sudo pacman -S clamav discord firewalld python-pyqt6 gimp isoimagewriter kalm libreoffice-fresh paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
+#### No Gaming
+`sudo pacman -S clamav discord firewalld python-pyqt6 gimp isoimagewriter kalm libreoffice-fresh paru strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
+#### No Office
+`sudo pacman -S clamav discord firewalld python-pyqt6 gimp isoimagewriter kalm paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
 
-### Add Other AUR Packages
+### Add AUR Packages
 `paru -S livecaptions proton-mail-bin`
-
-### Remove Unnecesarry Packages
-<p>KDE's Discover package manager is not designed for Arch Linux.</p>
-
-`sudo pacman -R plasma-meta`
-
-`sudo pacman -R discover`
 
 ## Security
 
@@ -276,19 +281,29 @@ WantedBy=multi-user.target
 Press CTRL+X, Y, ENTER
 
 `sudo freshclam`
+
 `sudo touch /var/log/clamav/freshclam.log`
+
 `sudo chmod 600 /var/log/clamav/freshclam.log`
+
 `sudo chown clamav /var/log/clamav/freshclam.log`
+
 `sudo systemctl start clamav-freshclam.service`
+
 `sudo systecmtl enable clamav-freshclam.service`
 
 `sudo systemctl start clamav-daemon.service`
+
 `sudo systemctl enable clamav-daemon.service`
+
 `sudo systemctl start clamav-clamonacc.service`
+
 `sudo systemctl enable clamav-clamonacc.service`
 
 `sudo touch /run/clamav/clamd.ctl`
+
 `sudo chown clamav:clamav /run/clamav/clamd.ctl`
+
 `sudo systemctl restart clamav-daemon.service`
 
 #### Testing

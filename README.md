@@ -214,11 +214,11 @@ Add to the bottom
 <p>Choose Full, No Gaming or No Office.</p>
 
 #### Full
-`sudo pacman -S clamav discord firewalld python-pyqt6 gimp isoimagewriter kalm libreoffice-fresh paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
+`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp isoimagewriter kalm libreoffice-fresh paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
 #### No Gaming
-`sudo pacman -S clamav discord firewalld python-pyqt6 gimp isoimagewriter kalm libreoffice-fresh paru strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
+`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp isoimagewriter kalm libreoffice-fresh paru strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
 #### No Office
-`sudo pacman -S clamav discord firewalld python-pyqt6 gimp isoimagewriter kalm paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
+`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp isoimagewriter kalm paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
 
 ### Add AUR Packages
 `paru -S livecaptions proton-mail-bin`
@@ -255,6 +255,7 @@ done
 ```
 
 `sudo systemctl edit --full clamav-clamonacc.service`
+
 <p>Compare below, similar? And notice under [Service], ExecStart= and --fdpass are not there? Add yourself or copy and paste.</p>
 
 ```
@@ -272,7 +273,7 @@ Type=simple
 User=root
 ExecStartPre=/bin/bash -c "while [ ! -S /run/clamav/clamd.ctl ]; do sleep 1; done"
 ExecStart=
-ExecStart=/usr/sbin/clamonacc -F --fdpass --log=/var/log/clamav/clamonacc.log --move=/root/quarantine
+ExecStart=/usr/sbin/clamonacc -F --fdpass --log=/var/log/clamav/clamonacc.log
 ExecStop=/bin/kill -SIGKILL $MAINPID
 
 [Install]
@@ -312,12 +313,10 @@ The output must include: stdin: Win.Test.EICAR_HDB-1 FOUND
 
 #### Real-Time Protection
 `cd Downloads`
-`wget https://secure.eicar.org/eicar.com.txt`
-`cat eicar.com.txt`
 
-#### Adding more Databases/Signatures Repos
-`sudo -u clamav /usr/bin/fangfrisch --conf /etc/fangfrisch/fangfrisch.conf initdb`
-`sudo systemctl enable fangfrisch.timer`
+`wget https://secure.eicar.org/eicar.com.txt`
+
+`cat eicar.com.txt`
 
 ### DNS
 

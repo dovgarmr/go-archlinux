@@ -18,7 +18,7 @@ Providing guides to install/customise with [Arch Linux](https://archlinux.org) b
 Hearing are welcome. Just don't ask with your mouth. 😜
 <br><br><br><br>
 Desktop Environment: [KDE Plasma](https://kde.org/plasma-desktop/)<br><br>
-Software Included Example:<br>
+Software Example:<br>
 [ClamAV](https://www.clamav.net), [Discord](https://discord.com), [Firewalld](https://firewalld.org), [GIMP](https://www.gimp.org), [ISO Image Writer](https://apps.kde.org/isoimagewriter), [Kalm](https://apps.kde.org/kalm), [LibreOffice](https://www.libreoffice.org/discover/screenshots), [Live Captions](https://github.com/abb128/LiveCaptions), [Proton Mail](https://proton.me/mail), [*Steam](https://store.steampowered.com/about), [Strawberry](https://www.strawberrymusicplayer.org), [Timeshift](https://github.com/linuxmint/timeshift), [VLC](https://www.videolan.org/vlc), [Yazi](https://github.com/sxyazi/yazi), [Zen Browser](https://zen-browser.app)
 <br><br>
 *Some games do not support on Linux. Moreover, if you only have IGPU (Integrated Graphics Processing Unit) such as [APU](https://en.wikipedia.org/wiki/AMD_APU) or [IGT](https://en.wikipedia.org/wiki/Intel_Graphics_Technology), check [ProtonDB](https://www.protondb.com) for Game on Linux compability including "Steam Deck" which is based on APU (in theory should work on IGT too) for your laptop or PC.

@@ -70,13 +70,13 @@ What needs are:
 ## Flash ISO
 
 ### Arch-Based
-<p>sudo pacman -S rpi-imager</p>
+`sudo pacman -S rpi-imager`
 
 ### Debian/Ubuntu-Based
 [Raspberry Pi Imager](https://www.raspberrypi.com/software)
 
 ### Raspberry Pi OS
-<p>sudo apt install rpi-imager</p>
+`sudo apt install rpi-imager`
 
 ### Linux Flavours
 <p>Check your OS's repo packages "rpi-imager". If no luck, alternatives are:<p>

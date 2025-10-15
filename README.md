@@ -11,7 +11,7 @@ Sticking with traditional technology and without or limited AI?
 Switching to Linux can save you money since it's free to use, works on old and new hardware. Additionally, Linux is generally more privacy, secure and customisable, making it a great option for users looking for a reliable operating system.
 <br><br>
 GO Arch Linux!<br>
-$\color{green}{Gaming}$ and/or $\color{green}{Office}$ on Arch Linux with the help from a skilled Deaf long viking beard man. 🤘
+$\color{green}{Gaming}$ and/or $\color{green}{Office}$ on Arch Linux with the help from a skilled Deaf man with long viking beard. 🤘
 <br><br>
 Providing guides to install/customise with [Arch Linux](https://archlinux.org) building from scratch for the Deaf, DeafBlind, DeafDisabled, Hard of Hearing and Late-Deafened.
 <br><br>

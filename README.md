@@ -1,24 +1,36 @@
 # go-archlinux
 
-## Reasons
-Microsoft to abandon Windows 10 for 11 and unable to upgrade due to hardware?
+## Time To Abandon Microsoft's Operating System
+### Reasons
++ Windows 10 support is ending
++ Resistance can be very expensive
++ Too many Ads and the annoying Copilot+
++ Grumbling users everywhere
++ A personal experiment gone awry
++ The fear of future bugs
+
+## Time to Welcome Linux's Operating System
+### Reasons
++ Offer greater control
++ Fewer intrustive updates
++ A more user-friendly software installation process
++ Free to use
++ Works on old and new hardware
++ More privacy
++ Generally secure
++ Customisable
 <br><br>
-Build a Gaming and/or Office PC and cannot decide which distro flavour?
+## GO Arch Linux!<br>
+$\color{green}{Gaming}$ and/or $\color{green}{Office}$ on Arch Linux with the help from a skilled Deaf man with long viking beard, Antero Wolf-Walker. 🤘
+![AWW in the Valleys](https://github.com/user-attachments/assets/0cbe1225-fd3e-4d86-850b-d1f48f8b1588)
 <br><br>
-Sticking with traditional technology and without or limited AI?
+Provided guides to install/customise with [Arch Linux](https://archlinux.org), building from scratch for the Deaf, DeafBlind, DeafDisabled, Hard of Hearing and Late-Deafened.
 <br><br>
-## Answer
-Switching to Linux can save you money since it's free to use, works on old and new hardware. Additionally, Linux is generally more privacy, secure and customisable, making it a great option for users looking for a reliable operating system.
-<br><br>
-GO Arch Linux!<br>
-$\color{green}{Gaming}$ and/or $\color{green}{Office}$ on Arch Linux with the help from a skilled Deaf man with long viking beard. 🤘
-<br><br>
-Providing guides to install/customise with [Arch Linux](https://archlinux.org) building from scratch for the Deaf, DeafBlind, DeafDisabled, Hard of Hearing and Late-Deafened.
-<br><br>
-Hearing are welcome. Just don't ask with your mouth. 😜
+Hearing are welcome. Just don't speak with your mouth. 😜
 <br><br><br><br>
-Desktop Environment: [KDE Plasma](https://kde.org/plasma-desktop/)<br><br>
-Software Example:<br>
+### Desktop Environment:
+[KDE Plasma](https://kde.org/plasma-desktop/)<br><br>
+### Software Example:
 [ClamAV](https://www.clamav.net), [Discord](https://discord.com), [Firewalld](https://firewalld.org), [GIMP](https://www.gimp.org), [ISO Image Writer](https://apps.kde.org/isoimagewriter), [Kalm](https://apps.kde.org/kalm), [LibreOffice](https://www.libreoffice.org/discover/screenshots), [Live Captions](https://github.com/abb128/LiveCaptions), [Proton Mail](https://proton.me/mail), [*Steam](https://store.steampowered.com/about), [Strawberry](https://www.strawberrymusicplayer.org), [Timeshift](https://github.com/linuxmint/timeshift), [VLC](https://www.videolan.org/vlc), [Yazi](https://github.com/sxyazi/yazi), [Zen Browser](https://zen-browser.app)
 <br><br>
 *Some games do not support on Linux. Moreover, if you only have IGPU (Integrated Graphics Processing Unit) such as [APU](https://en.wikipedia.org/wiki/AMD_APU) or [IGT](https://en.wikipedia.org/wiki/Intel_Graphics_Technology), check [ProtonDB](https://www.protondb.com) for Game on Linux compability including "Steam Deck" which is based on APU (in theory should work on IGT too) for your laptop or PC.
@@ -54,11 +66,12 @@ Software Example:<br>
 + repos & software
 + security
 + colors & themes
++ external backup and format (coming soon)
 
 ## Check List
 What needs are:
-+ One USB-C or USB Flash Drive, at least 2GB to iso.
-+ One External HDD (Hard Disk Drive), External SSD (Solid-State Drive) or Flash Drive to backup.
++ One USB-C or USB Flash Drive, at least 2GB for flashing iso.
++ One External HDD (Hard Disk Drive), External SSD (Solid-State Drive) or Flash Drive for backup. These suggestions have longer life compare to Internal HDD or SSD.
 
 ## Priceless Warning - A Friendly Reminder
 <p>If you haven't backed up your documents, downloads, photos, videos. Perhaps fonts and wallpapers. Browser's bookmark export. Anything else not mentioned?</p>

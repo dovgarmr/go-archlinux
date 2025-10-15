@@ -46,14 +46,14 @@ Software Example:<br>
 + VMware / Virtualbox (open-source)
 
 ## Instructions Included
-+ check list (done)
-+ priceless warning (done)
-+ flash iso (done)
-+ bios settings (done)
-+ install arch linux (done)
-+ repos & software (done)
-+ security (done)
-+ colors & themes (coming soon)
++ check list
++ priceless warning
++ flash iso
++ bios settings
++ install arch linux
++ repos & software
++ security
++ colors & themes
 
 ## Check List
 What needs are:

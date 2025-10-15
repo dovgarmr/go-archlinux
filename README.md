@@ -212,14 +212,14 @@ Add to the bottom
 <p>Choose Full, No Gaming or No Office.</p>
 
 #### Full
-`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp isoimagewriter kalm libreoffice-fresh paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
+`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp gwenview isoimagewriter kalm libreoffice-fresh okular paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
 #### No Gaming
-`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp isoimagewriter kalm libreoffice-fresh paru strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
+`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp gwenview isoimagewriter kalm libreoffice-fresh okular paru strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
 #### No Office
-`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp isoimagewriter kalm paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
+`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp gwenview isoimagewriter kalm okular paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
 
 #### No Gaming and Office
-`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp isoimagewriter kalm paru strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
+`sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp gwenview isoimagewriter kalm okular paru strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
 
 ### Add AUR Packages
 `paru -S livecaptions proton-mail-bin`
@@ -364,3 +364,76 @@ Confirm you're using Quad9 by visiting [on.quad9.net](https://on.quad9.net).
 `firewall-cmd --get-services`
 
 ## Colors & Themes
+Click on System Settings located in the bottom left side.
+<img width="3640" height="2046" alt="Screenshot_20251015_093720" src="https://github.com/user-attachments/assets/cbe4f87e-db5f-45f6-bffb-13b737b1fac7" />
+<br><br>
+Choose Breeze or Breeze Dark
+<img width="1765" height="1283" alt="Screenshot_20251015_094023" src="https://github.com/user-attachments/assets/5f3e3aa2-da17-4482-89c2-583961477861" />
+<br><br>
+I find Maximise annoying so I turned it off. And top left corner from Overview to No Action.
+<img width="1766" height="1446" alt="Screenshot_20251015_094420" src="https://github.com/user-attachments/assets/d26adabd-687e-455f-afac-3d3322e4ea52" />
+<br><br>
+NumLock: Turn on
+<img width="1763" height="1446" alt="Screenshot_20251015_094502" src="https://github.com/user-attachments/assets/c91ed028-3ece-4449-9442-f160b2b52524" />
+<br><br>
+If your fave colour is not listed, custom!
+<img width="1762" height="1444" alt="Screenshot_20251015_095029" src="https://github.com/user-attachments/assets/ba39375c-1ed1-4062-9024-01fe851469ce" />
+<br><br>
+Spash Screen, choose or Get New.
+<img width="1762" height="1444" alt="Screenshot_20251015_095211" src="https://github.com/user-attachments/assets/01512048-c00b-47cc-a46e-ac673554d23c" />
+<br><br>
+Default Applications
+<img width="1763" height="1550" alt="Screenshot_20251015_100933" src="https://github.com/user-attachments/assets/33ac48b3-65a8-4077-a7a4-54d4f2ce6df8" />
+<br><br>
+Screen Locking
+<img width="1759" height="1551" alt="Screenshot_20251015_102106" src="https://github.com/user-attachments/assets/e0bedced-b6a1-49a7-903b-8d48e1976f70" />
+Power Management
+<img width="1762" height="1550" alt="Screenshot_20251015_102124" src="https://github.com/user-attachments/assets/019e3f46-a13a-4af6-96ff-ba6e0c3af743" />
+<br><br>
+<p>Close System Settings.</p>
+Right-click on Panel
+<img width="3640" height="2046" alt="Screenshot_20251015_102320" src="https://github.com/user-attachments/assets/e9d00b94-c7c2-41b4-ba15-7d47edd7bd9a" />
+<br><br>
+Adjust Position to either bottom or top. Adjust Opacity to Translucent. Floating to Applets only.
+<img width="893" height="937" alt="Screenshot_20251015_102504" src="https://github.com/user-attachments/assets/561480a6-2fd4-42c8-892a-37de8003c757" />
+<br><br>
+Click + Add New for Spacer, twice. Move two spacers to the middle, move Digital Clock in between spacers.
+<img width="3640" height="2046" alt="Screenshot_20251015_102838" src="https://github.com/user-attachments/assets/a8b468ba-0615-410e-b373-304e8df322d5" />
+<br><br>
+Remove Margins Separator. Then Exit Edit Mode.
+<img width="886" height="1029" alt="Screenshot_20251015_102933" src="https://github.com/user-attachments/assets/3576c26d-2daa-4243-a1b5-935f6042e96b" />
+<br><br>
+Right-click on Digital Clock<br>
+<img width="497" height="352" alt="Screenshot_20251015_103034" src="https://github.com/user-attachments/assets/65fe4c34-24fb-456f-bb1f-594f62fae40e" />
+<br><br>
+Adjust Appearance. Click Apply.
+<img width="1363" height="1131" alt="Screenshot_20251015_103147" src="https://github.com/user-attachments/assets/a721a492-9453-4b1e-8506-615ca23cfe3d" />
+<br><br>
+Adjust Calendar. Click Apply.
+<img width="1364" height="1125" alt="Screenshot_20251015_103231" src="https://github.com/user-attachments/assets/a7905605-c637-42e1-a72a-35ef2b85641e" />
+<br><br>
+Adjust Astronomical Events. Click Apply.
+<img width="1362" height="1127" alt="Screenshot_20251015_103259" src="https://github.com/user-attachments/assets/b9d4056c-06ab-406f-a4bb-3b51bb839ad4" />
+<br><br>
+Add Holidays. Click Apply. Click Ok.
+<img width="1361" height="1125" alt="Screenshot_20251015_103327" src="https://github.com/user-attachments/assets/03fbca64-e6c5-4bbb-858c-a5f27a6e5d0b" />
+<br><br>
+In the upper right, right-click on the Down Arrow to Configure System Tray.<br>
+<img width="419" height="255" alt="Screenshot_20251015_103357" src="https://github.com/user-attachments/assets/116ba34a-6a87-4456-b31b-b1a40dc9e19e" />
+<br><br>
+Ajust General. Click Apply.
+<img width="1360" height="1073" alt="Screenshot_20251015_103422" src="https://github.com/user-attachments/assets/94af222c-62c3-4592-83fa-29707e4905a9" />
+<br><br>
+Adjust Entries. Click Apply. Click Ok.
+<img width="1363" height="1076" alt="Screenshot_20251015_103442" src="https://github.com/user-attachments/assets/b7bfdaad-a010-4020-b693-ab67a86d6cca" />
+<br><br>
+
+
+
+
+
+
+
+
+
+

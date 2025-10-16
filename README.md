@@ -244,7 +244,9 @@ Add to the bottom
 #### ClamAV
 
 `sudo clamconf -g freshclam.conf > freshclam.conf`
+
 `sudo clamconf -g clamd.conf > clamd.conf`
+
 `sudo clamconf -g clamav-milter.conf > clamav-milter.conf`
 
 According to [ArchWiki](https://wiki.archlinux.org/title/ClamAV#Configuration) recommended configurations.

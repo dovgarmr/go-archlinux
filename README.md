@@ -21,13 +21,14 @@
 + Customisable
 <br><br>
 ## GO Arch Linux!<br>
-$\color{green}{Gaming}$ and/or $\color{green}{Office}$ on Arch Linux with the help from a skilled Deaf man with long viking beard, Antero Wolf-Walker. 🤘
+$\color{green}{Gaming}$ and/or $\color{green}{Office}$ on Arch Linux with the help from a skilled Deaf man with long viking beard, Antero Wolf-Walker. Each hand flat "O" handshape, both index and pinkie extended that looks like wolf heads facing down and move them as if they were feet in the process of walking. WOOF, you just learned his sign name!
+<br>
 ![AWW in the Valleys](https://github.com/user-attachments/assets/0cbe1225-fd3e-4d86-850b-d1f48f8b1588)
 <br><br>
 Provided guides to install/customise with [Arch Linux](https://archlinux.org), building from scratch for the Deaf, DeafBlind, DeafDisabled, Hard of Hearing and Late-Deafened.
 <br><br>
 Hearing are welcome. Just don't speak with your mouth. 😜
-<br><br><br><br>
+<br><br><br>
 ### Desktop Environment:
 [KDE Plasma](https://kde.org/plasma-desktop/)<br><br>
 ### Software Example:
@@ -439,8 +440,9 @@ Ajust General. Click Apply.
 <br><br>
 Adjust Entries. Click Apply. Click Ok.
 <img width="1363" height="1076" alt="Screenshot_20251015_103442" src="https://github.com/user-attachments/assets/b7bfdaad-a010-4020-b693-ab67a86d6cca" />
-<br><br>
+<br>
 
+## External Backup & Format
 
 
 

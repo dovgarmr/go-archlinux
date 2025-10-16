@@ -243,9 +243,13 @@ Add to the bottom
 ### Antivirus
 #### ClamAV
 
+`sudo clamconf -g freshclam.conf > freshclam.conf`
+`sudo clamconf -g clamd.conf > clamd.conf`
+`sudo clamconf -g clamav-milter.conf > clamav-milter.conf`
+
 According to [ArchWiki](https://wiki.archlinux.org/title/ClamAV#Configuration) recommended configurations.
 
-I have modified [clamd.conf](https://github.com/dovgarmr/go-archlinux/blob/main/clamd.conf) to match to make our lives easier.
+I modified [clamd.conf](https://github.com/dovgarmr/go-archlinux/blob/main/clamd.conf) to match to make our lives easier by copy and paste or replace the file located in /etc/clamav/clamd.conf
 
 `sudo nano /etc/sudoers.d/clamav`
 

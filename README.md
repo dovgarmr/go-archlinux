@@ -399,7 +399,7 @@ NumLock: Turn on
 If your fave colour is not listed, custom!
 <img width="1762" height="1444" alt="Screenshot_20251015_095029" src="https://github.com/user-attachments/assets/ba39375c-1ed1-4062-9024-01fe851469ce" />
 <br><br>
-Spash Screen, choose or Get New.
+Splash Screen, choose or Get New.
 <img width="1762" height="1444" alt="Screenshot_20251015_095211" src="https://github.com/user-attachments/assets/01512048-c00b-47cc-a46e-ac673554d23c" />
 <br><br>
 Default Applications

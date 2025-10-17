@@ -21,7 +21,7 @@
 + Customisable
 <br><br>
 ## GO Arch Linux!<br>
-$\color{green}{Gaming}$ and/or $\color{green}{Office}$ on Arch Linux with the help from a skilled Deaf man with long viking beard, Antero Wolf-Walker. Each hand flat "O" handshape, both index and pinkie extended that looks like wolf heads facing down and move them as if they were feet in the process of walking. WOOF, you just learned his sign name!
+$\color{green}{Gaming}$ and/or $\color{green}{Office}$ on Arch Linux with the help from a skilled Deaf man with long viking beard, Antero Wolf-Walker. Each hand flat "O" handshape, both indexes and pinkies extended that looks like wolf heads facing down and move them as if they were feet in the process of walking. WOOF, you just learned his sign name!
 <br>
 ![AWW in the Valleys](https://github.com/user-attachments/assets/0cbe1225-fd3e-4d86-850b-d1f48f8b1588)
 <br><br>

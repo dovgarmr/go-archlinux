@@ -223,7 +223,7 @@ Add to the bottom
 `sudo pacman -Syu`
 
 ### Add Packages
-<p>Choose Full, No Gaming or No Office.</p>
+<p>Choose Full, No Gaming, No Office or No Gaming and Office.</p>
 
 #### Full
 `sudo pacman -S clamav clamav-unofficial-sigs discord firewalld python-pyqt6 gimp gwenview isoimagewriter kalm libreoffice-fresh okular paru steam strawberry gst-libav timeshift vlc vlc-plugin-ass vlc-plugin-ffmpeg vlc-plugin-freetype vlc-plugin-mpeg2 vlc-plugin-notify vlc-plugin-srt vlc-plugin-x264 vlc-plugin-x265 yazi imagemagick zen-browser-bin`
